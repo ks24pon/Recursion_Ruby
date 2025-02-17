@@ -1,5 +1,5 @@
 def toLowerCase(stringInput)
-    return (stringInput.downcase())
+    return stringInput.downcase
 end
 
 puts toLowerCase("HELLO")
