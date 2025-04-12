@@ -3,17 +3,18 @@ def notDivisibleNumbers(x,y)
     return "" if x == 1 && y == 1
 
     # 出力を格納する配列
-    array_preparation = []
+    result = []
 
     #　1 から x までの整数を y で割った時に余りがある処理
     (1..x).each do |num|
         # yで割って余がある場合
         if num % y != 0
             # 配列に追加
-            array_preparation << num
+            result << num
         end
     end
 
     # 配列を"-"で繋いで文字列に返す
-    array_preparation.join("-")
+    result.join("-")
 end
+
