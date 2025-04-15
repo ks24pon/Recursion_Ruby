@@ -14,13 +14,9 @@ class Dog
 
     # 犬の鳴き声
     def bark
-        if size >= 50
-            "Wooof! Woof!"
-        elsif size >= 20
-            "Ruff! Ruff!"
-        else
-            "Yip! Yip! "
-        end
+        return "Wooof! Woof!" if size >= 50
+        return "Ruff! Ruff!" if size >= 20
+        "Yip! Yip! "
     end
 
     # 人間年齢に換算
