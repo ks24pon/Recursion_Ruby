@@ -1,7 +1,7 @@
 WEIGHT = 85.5
 MET_KEY_VALUE = {
     "running" => 8,
-    "waliking" => 3,
+    "walking" => 3,
     "tennis" => 5,
     "rope jump" => 9
 }
