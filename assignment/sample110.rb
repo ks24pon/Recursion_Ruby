@@ -6,5 +6,3 @@ def isFirstStringLarger(s1,s2)
   # s1の合計がs2より大きいか判定(true/false)
   s1_sum > s2_sum
 end
-
-# テスト
