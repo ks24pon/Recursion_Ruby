@@ -7,3 +7,4 @@ def isFirstStringLarger(s1,s2)
   s1_sum > s2_sum
 end
 
+# テスト
