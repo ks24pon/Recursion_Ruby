@@ -18,4 +18,12 @@ def videosToWatch(time,daily_goal)
   -1
 end
 
-# videosToWatch([1,2,1,3,4],5)
+# テストケース記入
+video1 = videosToWatch([1,2,1,3,4],5)
+puts video1
+
+video2 = videosToWatch([1,2,1,3,4],3)
+puts video2
+
+video3 = videosToWatch([2,3,1,4,3],15)
+puts video3
